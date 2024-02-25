@@ -1,0 +1,20 @@
+{
+    "name": "security_lab_work",
+    "version": "1.0.0",
+    "description": "third license year security lab work",
+    "main": "app.js",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cunbex/security-lab-work-L3GTR.git"
+    },
+    "author": "cunbex",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cunbex/security-lab-work-L3GTR/issues"
+    },
+    "homepage": "https://github.com/cunbex/security-lab-work-L3GTR#readme",
+    "dependencies": {
+        "eslint-config-wesbos": "^4.0.1"
+    }
+}
