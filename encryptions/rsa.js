@@ -1,5 +1,3 @@
-// CODE WORKS WITH UPPERCASE ONLY AND SPACES, LOWER CASES WILL RESULT IN WRONG OUTPUTS
-
 function ipgcd(a, b) {
     let a1 = 1;
     let b2 = 1;
@@ -106,7 +104,9 @@ function main() {
     }
     const d = ipgcd(eArray[0], phiN);
     console.log(`Q: ${q}, P: ${p}, N: ${n}, PhiN: ${phiN}`);
-    console.log(`Possible e values: ${eArray}`);
+    console.log(
+        `Possible e values: ${eArray}. Condition for e to validate -> isPrime(e) && gcd(e, phiN) === 1 && e > 3 && e < phiN`,
+    );
     console.log(`Chosen public exponent (e): ${eArray[0]}`);
     console.log(`Calculated private exponent (d): ${d}`);
     console.log(`Public key is: (${eArray[0]},${n})`);
