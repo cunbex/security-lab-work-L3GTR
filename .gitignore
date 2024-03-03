@@ -1,5 +1,3 @@
-encryptions/affinecipher.js
-encryptions/hillcipher.js
 encryptions/tp1.py
 .eslintrc.json
 .prettierrc.json
